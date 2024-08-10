@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Parzival Chen</title>
-    <link>https://parzival-chen.github.io/tags/</link>
+    <link>https://parzival.icu/tags/</link>
     <description>Recent content in Tags on Parzival Chen</description>
     <image>
       <title>Parzival Chen</title>
-      <url>https://parzival-chen.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://parzival-chen.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 07 Aug 2024 16:46:15 +0800</lastBuildDate>
-    <atom:link href="https://parzival-chen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://parzival.icu/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub</title>
-      <link>https://parzival-chen.github.io/tags/github/</link>
+      <link>https://parzival.icu/tags/github/</link>
       <pubDate>Wed, 07 Aug 2024 16:46:15 +0800</pubDate>
-      <guid>https://parzival-chen.github.io/tags/github/</guid>
+      <guid>https://parzival.icu/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://parzival-chen.github.io/tags/hugo/</link>
+      <link>https://parzival.icu/tags/hugo/</link>
       <pubDate>Wed, 07 Aug 2024 16:46:15 +0800</pubDate>
-      <guid>https://parzival-chen.github.io/tags/hugo/</guid>
+      <guid>https://parzival.icu/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>个人博客</title>
-      <link>https://parzival-chen.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://parzival.icu/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 07 Aug 2024 16:46:15 +0800</pubDate>
-      <guid>https://parzival-chen.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://parzival.icu/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description></description>
     </item>
   </channel>

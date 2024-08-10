@@ -2,30 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on Parzival Chen</title>
-    <link>https://parzival-chen.github.io/tags/hugo/</link>
+    <link>https://parzival.icu/tags/hugo/</link>
     <description>Recent content in Hugo on Parzival Chen</description>
     <image>
       <title>Parzival Chen</title>
-      <url>https://parzival-chen.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://parzival-chen.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 07 Aug 2024 16:46:15 +0800</lastBuildDate>
-    <atom:link href="https://parzival-chen.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://parzival.icu/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo&#43;Github建立自己的个人博客</title>
-      <link>https://parzival-chen.github.io/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://parzival.icu/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 07 Aug 2024 16:46:15 +0800</pubDate>
-      <guid>https://parzival-chen.github.io/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://parzival.icu/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description> 大家好啊！我是Parzival，这篇文章主要是记录了一下我这个萌新从零开始搭建自己的个人博客的步骤。
 前期准备工作 个人电脑一台，并了解一些基本的命令行相关知识，同时电脑安装有git；
 Github账号一个
 参考资料查阅准备：
 使用hugo+github-pages部署个人博客 hugo官方使用文档中文版 hugo官方使用文档英文版 hugo模版库 gh-pages如何关联自己的域名 这篇文章的目的是实现一个比较完整的个人博客搭建，包括Github Action自动生成静态内容 并且发布以及gh-pages关联自己的域名等操作，如果你只是想搭建一个 简单的个人博客，那么可以不必详细阅读我的博文，第一个参考资料使用hugo+github-pages部署个人博客 会是一个更好的选择，通过学习那一篇博文，你可以用更简单的操作，更短的时间快速搭建一个个人博客 第一步：创建仓库 我已经默认读到这篇文章的你拥有了Github账户
 那么第一步是创建两个Github仓库,一个用来存放自己的整个博客项目，它是私有的 我们称之为博客源仓库，或简称为源仓库，另一个仓库则用来发布自己的博客，我称之为public 仓库。
-首先，我们来创建自己的源仓库：
-git pull </description>
+首先，我们来创建自己的源仓库： git pull </description>
     </item>
   </channel>
 </rss>
