@@ -26,7 +26,11 @@
       <pubDate>Wed, 07 Aug 2024 16:46:15 +0800</pubDate>
       <guid>https://parzival-chen.github.io/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description> 大家好啊！我是Parzival，这篇文章主要是记录了一下我这个萌新从零开始搭建自己的个人博客的步骤。
-前期准备工作 </description>
+前期准备工作 个人电脑一台，并了解一些基本的命令行相关知识，同时电脑安装有git；
+Github账号一个
+参考资料查阅准备：
+使用hugo+github-pages部署个人博客 hugo官方使用文档中文版 hugo官方使用文档英文版 hugo模版库 第一步：创建仓库 我已经默认读到这篇文章的你拥有了Github账户
+git pull </description>
     </item>
   </channel>
 </rss>
