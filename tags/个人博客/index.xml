@@ -15,9 +15,9 @@
     <atom:link href="https://parzival.icu/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo&#43;Github建立自己的个人博客</title>
-      <link>https://parzival.icu/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://parzival.icu/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 07 Aug 2024 16:46:15 +0800</pubDate>
-      <guid>https://parzival.icu/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://parzival.icu/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
       <description> 大家好啊！我是Parzival，这篇文章主要是记录了一下我这个萌新从零开始搭建自己的个人博客的步骤。
 前期准备工作 个人电脑一台，并了解一些基本的命令行相关知识，同时电脑安装有git；
 Github账号一个
