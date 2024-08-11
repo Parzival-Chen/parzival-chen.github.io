@@ -28,7 +28,7 @@ StayWithMe 点击这个链接⬆️即可跳转（只build了windows版本，mac
       <link>https://parzival.icu/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 07 Aug 2024 16:46:15 +0800</pubDate>
       <guid>https://parzival.icu/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description> 大家好啊！我是Parzival，这篇文章主要是记录了一下我这个萌新从零开始搭建自己的个人博客的步骤。
+      <description>大家好啊！我是Parzival，这篇文章主要是记录了一下我这个萌新从零开始搭建自己的个人博客的步骤。
 前期准备工作 个人电脑一台，并了解一些基本的命令行相关知识，同时电脑安装有git；
 Github账号一个；
 参考资料查阅准备：
@@ -40,7 +40,10 @@ Github账号一个；
 下面来创建第二个仓库，也就是我们用来发布博客的远程仓库。 注意！这里的仓库名称必须使用username.github.io的格式，其中，username就是图片中 左侧的“Owner”显示的内容，它是独一无二的，例如，我的username叫做Parzival-Chen, 所以我这里就应该填写parzival-chen.github.io，大小写本质上没什么区别，看你心情填写即可。 因为我已经创建过自己的这个仓库了，所以这里出现了报错，提示我“这个仓库已经存在”，如果你之前没有用这个名字创建过 仓库，那么这里应该是不会报什么错误的
 第二步 安装Hugo 请参考hugo官方文档或者英文版里的安装步骤进行，例如，我使用的是MacBook，那么我 需要在命令行里输入brew install hugo,安装完成后，可以输入hugo version来检查自己 是否安装成功以及自己的hugo版本
 第三步 本地创建博客项目文件夹 现在，我们需要挑选一个合适的风水宝地，建立自己的博客项目文件夹，例如，我随意地在桌面上 新建了一个文件夹，并命名为“Parzival Blog”
-git pull </description>
+然后回到第一步中创建的博客源仓库，复制SSH链接 接着打开位于刚刚创建的本地博客项目文件夹的终端，windows用户请win+R然后输入cmd进入命令行， 接着cd “文件夹的路径”进入这个文件夹， 然后输入git init 把它初始化为一个git 仓库，再输入
+git clone + &amp;ldquo;刚刚复制的SSH链接&amp;rdquo;
+然后输入git remote add origin+&amp;ldquo;刚刚复制的SSH链接&amp;rdquo;
+保险起见，接下来我们pull一下，在命令行输入git pull</description>
     </item>
   </channel>
 </rss>
