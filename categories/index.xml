@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Aug 2024 16:46:15 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 11 Aug 2024 11:02:52 +0800</lastBuildDate>
     <atom:link href="https://parzival.icu/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Development</title>
+      <link>https://parzival.icu/categories/game-development/</link>
+      <pubDate>Sun, 11 Aug 2024 11:02:52 +0800</pubDate>
+      <guid>https://parzival.icu/categories/game-development/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Computer Science</title>
       <link>https://parzival.icu/categories/computer-science/</link>
