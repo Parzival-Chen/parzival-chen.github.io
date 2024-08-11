@@ -2,23 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Parzival Chen</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://parzival.icu/projects/</link>
     <description>Recent content in Projects on Parzival Chen</description>
     <image>
       <title>Parzival Chen</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 11 Aug 2024 11:02:52 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://parzival.icu/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stay With Me</title>
-      <link>http://localhost:1313/projects/stay-with-me/</link>
+      <link>https://parzival.icu/projects/staywithme/</link>
       <pubDate>Sun, 11 Aug 2024 11:02:52 +0800</pubDate>
-      <guid>http://localhost:1313/projects/stay-with-me/</guid>
-      <description>Hello!</description>
+      <guid>https://parzival.icu/projects/staywithme/</guid>
+      <description>Hello!我是Parzival，这篇博文用来分享我人生中的第一个游戏
+StayWithMe 点击这个链接⬆️即可跳转（只build了windows版本，mac玩家震怒😡）
+游戏分享在Google云盘上，所以应该要挂梯子才能下载，当时是参加一个夏令营项目选的2D游戏开发课程，时间比较紧急，做这个游戏的时间只有14天， 所以整体来说比较粗糙，自己也没有时间和精力去弄音乐，美工等元素。人物形象是花钱请画师朋友帮忙画的， 壁纸和背景音乐都是直接拿的网上的现成的东西充充样子，不用作商业用途所以应该不涉及侵权。
+欢迎大家下载我的游戏游玩～ 有任何意见或建议都可以通过首页的联系方式联系到我本人，比较推荐邮件，QQ和Tele。</description>
     </item>
   </channel>
 </rss>
