@@ -9,7 +9,7 @@
       <url>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo -- 0.133.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 11 Aug 2024 11:02:52 +0800</lastBuildDate>
     <atom:link href="https://parzival.icu/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -32,6 +32,13 @@
       <link>https://parzival.icu/categories/computer-science/</link>
       <pubDate>Wed, 07 Aug 2024 16:46:15 +0800</pubDate>
       <guid>https://parzival.icu/categories/computer-science/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diary</title>
+      <link>https://parzival.icu/categories/diary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://parzival.icu/categories/diary/</guid>
       <description></description>
     </item>
   </channel>
