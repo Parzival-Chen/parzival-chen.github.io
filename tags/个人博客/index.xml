@@ -9,7 +9,7 @@
       <url>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- 0.134.1</generator>
     <language>en</language>
     <lastBuildDate>Wed, 07 Aug 2024 16:46:15 +0800</lastBuildDate>
     <atom:link href="https://parzival.icu/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
@@ -18,21 +18,48 @@
       <link>https://parzival.icu/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Wed, 07 Aug 2024 16:46:15 +0800</pubDate>
       <guid>https://parzival.icu/post/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/hugo&#43;github%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>大家好啊！我是Parzival，这篇文章主要是记录了一下我这个萌新从零开始搭建自己的个人博客的步骤。
-观前须知：本人也是超级超级小白，弄这个博客之前对前端几乎是一无所知，搜了好几个教程，前前后后花了十几个小时才弄好个人博客，写的这个教程出现差错也是正常的，欢迎各位指正～ 同时，如果你也是一枚萌新，那一定一定要做好心理建设，弄这个东西出错是很正常的，我当时看教程，觉得就这么六七步，轻轻松松两个小时包拿下，结果前前后后花了2天时间才弄好，期间真的是无数次红温😡项目重开了无数次。所以，请你不要被失败打击到，出现错误后就想办法去调试解决，解决不了的话就删库重开，没什么大不了的，加油！ 前期准备工作 个人电脑一台，并了解一些基本的命令行相关知识，同时电脑安装有git；
-Github账号一个；
-参考资料查阅准备：
-使用hugo+github-pages部署个人博客 hugo官方使用文档中文版 hugo官方使用文档英文版 hugo模版库 gh-pages如何关联自己的域名 Markdown如何插入图片 这篇文章的目的是实现一个比较完整的个人博客搭建，包括Github Action自动生成静态内容 并且发布以及gh-pages关联自己的域名等操作，如果你只是想搭建一个 简单的个人博客，那么可以不必详细阅读我的博文，第一个参考资料使用hugo+github-pages部署个人博客 会是一个更好的选择，通过学习那一篇博文，你可以用更简单的操作，更短的时间快速搭建一个个人博客 第一步：创建仓库 我已经默认读到这篇文章的你拥有了Github账户
-那么第一步是创建两个Github仓库,一个用来存放自己的整个博客项目，它是私有的 我们称之为博客源仓库，或简称为源仓库，另一个仓库则用来发布自己的博客，我称之为public 仓库。
-首先，我们来创建自己的源仓库： 仓库的名称随意，例如我给它命名为“MyBlog”，但请你最好不要把它命名为username.github.io 形式😂
-接下来，请勾选Private，因为我希望我的博客源仓库仅自己可见，如果你不介意把它公开的话， 那么完全不需要创建两个仓库，可以参考id1自行完成1个仓库的创建以及后续流程
-然后请勾选Add a Readme File，这样会自动把这个仓库的branch 初始化为Main，如果不这么做的话 你的仓库会是空的，后续添加新东西的时候，git应该会把默认branch初始化为Master，本质上二者没什么区别 只是我学到的教程都教我这么做，所以我也习惯这么做了😂
-下面来创建第二个仓库，也就是我们用来发布博客的远程仓库。 注意！这里的仓库名称必须使用username.github.io的格式，其中，username就是图片中 左侧的“Owner”显示的内容，它是独一无二的，例如，我的username叫做Parzival-Chen, 所以我这里就应该填写parzival-chen.github.io，大小写本质上没什么区别，看你心情填写即可。 因为我已经创建过自己的这个仓库了，所以这里出现了报错，提示我“这个仓库已经存在”，如果你之前没有用这个名字创建过 仓库，那么这里应该是不会报什么错误的
-第二步 安装Hugo 请参考hugo官方文档或者英文版里的安装步骤进行，例如，我使用的是MacBook，那么我 需要在命令行里输入brew install hugo,安装完成后，可以输入hugo version来检查自己 是否安装成功以及自己的hugo版本
-第三步 本地创建博客项目文件夹 现在，我们需要挑选一个合适的风水宝地，建立自己的博客项目文件夹，例如，我随意地在桌面上 新建了一个文件夹，并命名为“Parzival Blog”
-然后回到第一步中创建的博客源仓库，复制SSH链接 接着打开位于刚刚创建的本地博客项目文件夹的终端，windows用户请win+R然后输入cmd进入命令行， 接着cd “文件夹的路径”进入这个文件夹， 然后输入git init 把它初始化为一个git 仓库，再输入
-git clone + &amp;ldquo;刚刚复制的SSH链接&amp;rdquo;
-然后输入git remote add origin+&amp;ldquo;刚刚复制的SSH链接&amp;rdquo;</description>
+      <description>&lt;hr&gt;
+&lt;p&gt;大家好啊！我是Parzival，这篇文章主要是记录了一下我这个萌新从零开始搭建自己的个人博客的步骤。&lt;/p&gt;
+&lt;h3 id=&#34;观前须知本人也是超级超级小白弄这个博客之前对前端几乎是一无所知搜了好几个教程前前后后花了十几个小时才弄好个人博客写的这个教程出现差错也是正常的欢迎各位指正&#34;&gt;观前须知：本人也是超级超级小白，弄这个博客之前对前端几乎是一无所知，搜了好几个教程，前前后后花了十几个小时才弄好个人博客，写的这个教程出现差错也是正常的，欢迎各位指正～&lt;/h3&gt;
+&lt;h3 id=&#34;同时如果你也是一枚萌新那一定一定要做好心理建设弄这个东西出错是很正常的我当时看教程觉得就这么六七步轻轻松松两个小时包拿下结果前前后后花了2天时间才弄好期间真的是无数次红温项目重开了无数次所以请你不要被失败打击到出现错误后就想办法去调试解决解决不了的话就删库重开没什么大不了的加油&#34;&gt;同时，如果你也是一枚萌新，那一定一定要做好心理建设，弄这个东西出错是很正常的，我当时看教程，觉得就这么六七步，轻轻松松两个小时包拿下，结果前前后后花了2天时间才弄好，期间真的是无数次红温😡项目重开了无数次。所以，请你不要被失败打击到，出现错误后就想办法去调试解决，解决不了的话就删库重开，没什么大不了的，加油！&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;前期准备工作&#34;&gt;前期准备工作&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;个人电脑一台，并了解一些基本的命令行相关知识，同时电脑安装有git；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Github账号一个；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;参考资料查阅准备：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ratmomo.github.io/p/2024/06/%E4%BD%BF%E7%94%A8-hugo--github-pages-%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&#34;&gt;使用hugo+github-pages部署个人博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://hugo.opendocs.io/getting-started/&#34;&gt;hugo官方使用文档中文版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;hugo官方使用文档英文版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://themes.gohugo.io&#34;&gt;hugo模版库&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.csdn.net/qq_34902437/article/details/140298754&#34;&gt;gh-pages如何关联自己的域名&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.yuweihung.com/posts/2021/hugo-blog-picture/&#34;&gt;Markdown如何插入图片&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;!-- raw HTML omitted --&gt;这篇文章的目的是实现一个比较完整的个人博客搭建，包括Github Action自动生成静态内容
+并且发布以及gh-pages关联自己的域名等操作，如果你只是想搭建一个
+简单的个人博客，那么可以不必详细阅读我的博文，第一个参考资料&lt;a href=&#34;https://ratmomo.github.io/p/2024/06/%E4%BD%BF%E7%94%A8-hugo--github-pages-%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&#34;&gt;使用hugo+github-pages部署个人博客&lt;/a&gt;
+会是一个更好的选择，通过学习那一篇博文，你可以用更简单的操作，更短的时间快速搭建一个个人博客&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第一步创建仓库&#34;&gt;第一步：创建仓库&lt;/h2&gt;
+&lt;p&gt;我已经默认读到这篇文章的你拥有了Github账户&lt;/p&gt;
+&lt;p&gt;那么第一步是创建两个Github仓库,一个用来存放自己的整个博客项目，它是私有的
+我们称之为博客源仓库，或简称为源仓库，另一个仓库则用来发布自己的博客，我称之为public
+仓库。&lt;/p&gt;
+&lt;p&gt;首先，我们来创建自己的源仓库：
+&lt;img loading=&#34;lazy&#34; src=&#34;./Image/Hugo&amp;#43;Github%e5%bb%ba%e7%ab%8b%e8%87%aa%e5%b7%b1%e7%9a%84%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2-1723303103475.png&#34; alt=&#34;创建博客源仓库&#34;  /&gt;
+
+仓库的名称随意，例如我给它命名为“MyBlog”，但请你最好不要把它命名为username.github.io
+形式😂&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
