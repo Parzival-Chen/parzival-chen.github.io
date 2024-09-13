@@ -9,7 +9,7 @@
       <url>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://parzival.icu/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.134.1</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 07 Aug 2024 16:46:15 +0800</lastBuildDate>
     <atom:link href="https://parzival.icu/categories/computer-science/index.xml" rel="self" type="application/rss+xml" />
@@ -59,7 +59,37 @@
 &lt;img loading=&#34;lazy&#34; src=&#34;./Image/Hugo&amp;#43;Github%e5%bb%ba%e7%ab%8b%e8%87%aa%e5%b7%b1%e7%9a%84%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2-1723303103475.png&#34; alt=&#34;创建博客源仓库&#34;  /&gt;
 
 仓库的名称随意，例如我给它命名为“MyBlog”，但请你最好不要把它命名为username.github.io
-形式😂&lt;/p&gt;</description>
+形式😂&lt;/p&gt;
+&lt;p&gt;接下来，请勾选Private，因为我希望我的博客源仓库仅自己可见，如果你不介意把它公开的话，
+那么完全不需要创建两个仓库，可以参考&lt;a href=&#34;https://ratmomo.github.io/p/2024/06/%E4%BD%BF%E7%94%A8-hugo--github-pages-%E9%83%A8%E7%BD%B2%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/&#34;&gt;id1&lt;/a&gt;自行完成1个仓库的创建以及后续流程&lt;/p&gt;
+&lt;p&gt;然后请勾选Add a Readme File，这样会自动把这个仓库的branch 初始化为Main，如果不这么做的话
+你的仓库会是空的，后续添加新东西的时候，git应该会把默认branch初始化为Master，本质上二者没什么区别
+只是我学到的教程都教我这么做，所以我也习惯这么做了😂&lt;/p&gt;
+&lt;p&gt;下面来创建第二个仓库，也就是我们用来发布博客的远程仓库。
+&lt;img loading=&#34;lazy&#34; src=&#34;./Image/Hugo&amp;#43;Github%e5%bb%ba%e7%ab%8b%e8%87%aa%e5%b7%b1%e7%9a%84%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2-%e5%88%9b%e5%bb%bapublic%e4%bb%93%e5%ba%93.png&#34; alt=&#34;创建Public仓库&#34;  /&gt;
+
+注意！这里的仓库名称必须使用&lt;code&gt;username.github.io&lt;/code&gt;的格式，其中，username就是图片中
+左侧的“Owner”显示的内容，它是独一无二的，例如，我的username叫做Parzival-Chen,
+所以我这里就应该填写&lt;code&gt;parzival-chen.github.io&lt;/code&gt;，大小写本质上没什么区别，看你心情填写即可。
+因为我已经创建过自己的这个仓库了，所以这里出现了报错，提示我“这个仓库已经存在”，如果你之前没有用这个名字创建过
+仓库，那么这里应该是不会报什么错误的&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第二步-安装hugo&#34;&gt;第二步 安装Hugo&lt;/h2&gt;
+&lt;p&gt;请参考&lt;a href=&#34;https://hugo.opendocs.io/getting-started/&#34;&gt;hugo官方文档&lt;/a&gt;或者&lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;英文版&lt;/a&gt;里的安装步骤进行，例如，我使用的是MacBook，那么我
+需要在命令行里输入&lt;code&gt;brew install hugo&lt;/code&gt;,安装完成后，可以输入&lt;code&gt;hugo version&lt;/code&gt;来检查自己
+是否安装成功以及自己的hugo版本&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第三步-本地创建博客项目文件夹&#34;&gt;第三步 本地创建博客项目文件夹&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;./Image/Hugo&amp;#43;Github%e5%bb%ba%e7%ab%8b%e8%87%aa%e5%b7%b1%e7%9a%84%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2-1723305034881.png&#34; alt=&#34;本地博客文件夹&#34;  /&gt;
+
+现在，我们需要挑选一个合适的风水宝地，建立自己的博客项目文件夹，例如，我随意地在桌面上
+新建了一个文件夹，并命名为“Parzival Blog”&lt;/p&gt;
+&lt;p&gt;然后回到第一步中创建的博客源仓库，复制SSH链接
+&lt;img loading=&#34;lazy&#34; src=&#34;./Image/Hugo&amp;#43;Github%e5%bb%ba%e7%ab%8b%e8%87%aa%e5%b7%b1%e7%9a%84%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2-1723355525410.png&#34; alt=&#34;复制博客源仓库ssh链接&#34;  /&gt;
+
+接着打开位于刚刚创建的本地博客项目文件夹的终端，windows用户请win+R然后输入cmd进入命令行，
+接着cd “文件夹的路径”进入这个文件夹，
+然后输入&lt;code&gt;git init&lt;/code&gt; 把它初始化为一个git 仓库，再输入&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
