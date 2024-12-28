@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://parzival.icu/categories/</loc>
+    <lastmod>2024-12-28T12:42:35+08:00</lastmod>
+  </url><url>
+    <loc>https://parzival.icu/categories/diary/</loc>
+    <lastmod>2024-12-28T12:42:35+08:00</lastmod>
+  </url><url>
     <loc>https://parzival.icu/</loc>
     <lastmod>2024-12-28T12:42:35+08:00</lastmod>
   </url><url>
@@ -12,9 +18,6 @@
     <lastmod>2024-12-28T12:42:35+08:00</lastmod>
   </url><url>
     <loc>https://parzival.icu/tags/2d-game/</loc>
-    <lastmod>2024-08-11T11:02:52+08:00</lastmod>
-  </url><url>
-    <loc>https://parzival.icu/categories/</loc>
     <lastmod>2024-08-11T11:02:52+08:00</lastmod>
   </url><url>
     <loc>https://parzival.icu/categories/game-development/</loc>
@@ -49,8 +52,6 @@
   </url><url>
     <loc>https://parzival.icu/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-08-07T16:46:15+08:00</lastmod>
-  </url><url>
-    <loc>https://parzival.icu/categories/diary/</loc>
   </url><url>
     <loc>https://parzival.icu/search/</loc>
   </url><url>
